@@ -3,3 +3,13 @@ display: flex;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: repeat(8,1fr);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    float: right;
+    padding: 1vw;
+}
