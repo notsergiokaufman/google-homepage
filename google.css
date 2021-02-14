@@ -1,15 +1,114 @@
 #mainstructure {
-display: flex;
+display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: repeat(8,1fr);
 }
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: 50% 100%;
+    height: 92px;
+    width: auto;
+}
+
+.navflex {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex1 {
+    flex-basis: 50px;
+}
+
+.flex2 {
+    flex-basis: 50px;
+}
+
+.flex4 {
+    flex-basis: 50px;
+    justify-self: flex-end;
+    padding-left: 5px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5%;
+    background-color: lightblue;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: right;
 }
 ul li {
     display: inline;
-    float: right;
     padding: 1vw;
+}
+.appscontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    flex-basis: 30px;
+    justify-self: center;
+}
+
+.appscontainer:hover {
+    background-color: lightgrey;
+}
+
+.dot1, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7, .dot8, .dot9{
+
+    background-color: grey;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.dot1 {
+    align-self: flex-end;
+    justify-self: right;
+}
+
+.dot2 {
+    align-self: flex-end;
+}
+
+.dot3 {
+    align-self: flex-end;
+    justify-self: left;
+}
+
+.dot4 {
+    justify-self: right;
+}
+
+.dot6 {
+    justify-self: left;
+}
+
+.dot7 {
+    align-self: flex-start;
+    justify-self: right;
+}
+
+.dot8 {
+    align-self: flex-start;
+}
+
+.dot9 {
+    align-self: flex-start;
+    justify-self: left;
 }
