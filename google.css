@@ -3,6 +3,19 @@ body {
     margin: 0;
 }
 
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    font: 400 16px Arial
+}
+
 div {
     display: block;
 }
@@ -121,4 +134,238 @@ form {
 
 .logo {
     height: 92px;
+}
+
+.searchbar {
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin:0 auto;
+    padding-top: 6px;
+}
+
+.searchbar2 {
+    width: auto;
+    max-width: 584px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.searchbar3 {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.searchbar4 {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.magnifier {
+    height: auto;
+}
+
+.magnifier2 {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+}
+
+.magsvg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.searchbar5 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchbar6 {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+
+.searchinput {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.clear {
+    display: flex;
+    padding-right: 4px;
+    align-items: center;
+    border: 0;
+    padding: 0 8px;
+    line-height: 44px;
+}
+
+.micro {
+    display: flex;
+    flex: 1 0 auto;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    padding-bottom: 3px;
+}
+
+.microsvg {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.buttons {
+    height: 70px;
+}
+
+.buttonsearch {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.buttonsearch:hover {
+    box-shadow: 0 1px 1px rgb(0,0,0,10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttonlucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.buttonlucky:hover {
+    box-shadow: 0 1px 1px rgb(0,0,0,10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.spacer {
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.spacer2 {
+    font-size: small;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.spacer3 {
+    display: inline-block;
+    line-height: 28px;
+}
+
+.lang {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.foot {
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,0.54)
+}
+
+@media only screen and (max-width:1200px) {
+
+.foot2 {
+    justify-content: space-evenly;
+}
+
+}
+
+.foot2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.foot3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.af {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.foot4 {
+    display: flex;
+    flex-wrap: wrap;
 }
